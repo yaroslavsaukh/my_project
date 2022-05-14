@@ -1,0 +1,23 @@
+p{
+     color: green;
+     text-align: center;
+ }
+.first,.third{
+    color:red;
+}
+p#second{
+    color:pink;
+}
+.links{
+    color: red;
+    text-align: right;
+}
+.list  a{
+    color: deeppink;
+}
+.typeof li{
+    list-style-type:none;
+}
+.last a{
+    text-decoration: none;
+}

@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Agency FB";
+    background: lightgreen;
+}
+.box{
+    width: 300px;
+    height:660px;
+    padding:40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: url("https://i.pinimg.com/originals/a8/99/c3/a899c309ff75364f723663eec4317f4f.jpg");
+    border-radius: 10px;
+    text-align:center;
+    color: darkorange;
+}
+.box h2{
+    font-family: "Agency FB";
+    color:darkorange;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid orange;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color:white;
+    border-radius:30px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus{
+    width:280px;
+    border-color: darkorange;
+}
+.box input[type = "submit"]{
+    font-weight: bold;
+    border: 0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    vertical-align: bottom;
+    border:2px solid white;
+    padding: 14px 40px;
+    width:200px;
+    outline: none;
+    color:black;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: #f1f1f1;
+}
+.s-m{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: orange;
+    color: lightblue;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    vertical-align: bottom;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+}
+.s-m a:hover{
+    background: darkorange;
+}
+.s-m a i{
+    transition: 0.4s all;
+}
+.s-m a:hover > i{
+    transform: scale(1.3) rotate(15deg);
+}
